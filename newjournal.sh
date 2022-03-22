@@ -21,7 +21,7 @@ if [ $day == 3 ] || [ $day == 23 ]; then suffix=rd; fi;
 
 
 #### path and filename ####
-filePath=~/journal;
+filePath=~/journal/;
 if [ ! -d $filePath ]; then mkdir $filePath;fi;
 
 filename=journal$year$month$day$hr${min}.txt;
@@ -30,11 +30,10 @@ contentString=$dayName", "$shortDay$suffix" "$monthName" "$year" at "$shortHour:
 
 
 
-touch ~/journal/$filename;
-# use append in case another entry created in current minute; 
-echo $contentString >> ~/journal/$filename;
-echo " " >> ~/journal/$filename;
+touch $filePath$filename;
+echo $contentString >> $filePath$filename;
+echo " " >> $filePath$filename;
 
 
-open -a TextEdit ~/journal/$filename;
+open -a TextEdit $filePath$filename;
 
