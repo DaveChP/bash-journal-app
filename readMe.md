@@ -15,7 +15,7 @@ A public repository for **journal Version 1.0** is available at https://github.c
 
 ![screen shot of a new journal page opened in TextEdit](/journal-screen-shot.png)
 
-**Figure** showing screen shot of a TextEdit window opened with **journal** and ready to be written to. Not the date-stamped filename, and the nicely formatted entry date at the beginning of the document.
+**Figure** *showing screen shot of a TextEdit window opened with **journal** and ready to be written to. Note the date-stamped filename, and the nicely formatted entry date at the beginning of the document*
 
 The document's file name contains a numeric date/time reference allowing journal entries to be ordered and searched more easily. All files are stored in a directory named `journal` at the User's root (`~/journal/`). 
 
