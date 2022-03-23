@@ -23,20 +23,20 @@ journal Version 1.0 is a single bash script. Installing it anywhere on `PATH` wi
 
 ## Notes
 
- 1 For convenience user apps like journal are best kept in their own `bin` directory. Typically, a directory created at the User's root and named bin is used (`~/bin/`). This directory should be added to `PATH` to enable execution from anywhere in Terminal.
- 2 The month files are updated on launch to prepend the last journal entry - The current journal entry is *not added to the month file until the **next** entry* is launched.
- 3 The journal app must have its permissions set to executable in order to run (this should be the case when downloaded). If needed, the execution flag can be set from Terminal by navigating to the enclosing directory and typing `chmod +x journal`.
- 4 If **journal** is launched twice in the same clock minute, the first file, although open, may be appended with a new formatted date line. When saved, this may lead to a message asking to overwrite an existing file (which should be confirmed). In general, it is best to avoid launching **journal** within a minute of a previous launch. 
+ 1. For convenience user apps like journal are best kept in their own `bin` directory. Typically, a directory created at the User's root and named bin is used (`~/bin/`). This directory should be added to `PATH` to enable execution from anywhere in Terminal.
+ 2. The month files are updated on launch to prepend the last journal entry - The current journal entry is *not added to the month file until the **next** entry* is launched.
+ 3. The journal app must have its permissions set to executable in order to run (this should be the case when downloaded). If needed, the execution flag can be set from Terminal by navigating to the enclosing directory and typing `chmod +x journal`.
+ 4. If **journal** is launched twice in the same clock minute, the first file, although open, may be appended with a new formatted date line. When saved, this may lead to a message asking to overwrite an existing file (which should be confirmed). In general, it is best to avoid launching **journal** within a minute of a previous launch. 
 
 ## Notes for Bash Programmers
 
 **journal** contains many useful command examples frequently used by bash programmers and may be useful for learning and debugging other applications. These include:
 
- 1 numerous examples of working with `date` formats
- 2 several compound `if-then` loop examples
- 3 conditionals to check for presence of files and directories
- 4 an example of *nested* `if-then` loops
- 5 an elegant and efficient way of pre-pending one file to another, without need for name changes or temporary files. 
+ 1. numerous examples of working with `date` formats
+ 2. several compound `if-then` loop examples
+ 3. conditionals to check for presence of files and directories
+ 4. an example of *nested* `if-then` loops
+ 5. an elegant and efficient way of pre-pending one file to another, without need for name changes or temporary files. 
 
 ## About the Author
 
