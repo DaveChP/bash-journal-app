@@ -1,4 +1,6 @@
 #!/bin/bash
+# Version 1.0
+# ready March 23rd, 2022
 
 #### date manipulations #####
 min=$(date +%M);
