@@ -19,7 +19,7 @@ A public repository for **journal Version 1.0** is available at https://github.c
 
 The document's file name contains a numeric date/time reference allowing journal entries to be ordered and searched more easily. All files are stored in a directory named `journal` at the User's root (`~/journal/`). 
 
-Behind the scenes, journal, in addition to keeping individual diary entries, compiles entries into month files. When the app is launched, the contents of the file made at last launch are pre-pended to a file containing all previous entries for that month. Month files are name with month name and year (e.g. March-2022.txt).
+Behind the scenes, journal, in addition to keeping individual diary entries, compiles entries into month files. When the app is launched, the contents of the file made at last launch are pre-pended to a file containing all previous entries for that month. Month files are named with month name and year (e.g. March-2022.txt).
 
 ## Installation
 
@@ -52,7 +52,7 @@ I also enjoy defining processes and can create useful written work-flow or proce
 
 I can consider commercial commissions to solve or simplify any processes involving data and files, particularly those considered too specialised, messy, or trivial to be catered for by proprietary software. 
 
-Enquiries to d.c.pritlove@gmail.com
+Enquiries to Dave Pritlove at d.c.pritlove@gmail.com
 
 
 
